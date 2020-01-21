@@ -6,7 +6,7 @@ import { View, PanResponder } from "react-native"
 
 import Svg, { Defs, G, Rect } from "react-native-svg"
 
-import SvgPanZoom, { SvgPanZoomElement } from "react-native-svg-pan-zoom"
+import SvgPanZoom, { SvgPanZoomElement } from "react-native-simple-svg-pan-zoom"
 
 import projections from "./projections"
 import defaultProjectionConfig from "./projectionConfig"
