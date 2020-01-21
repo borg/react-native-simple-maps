@@ -3,9 +3,9 @@ import PropTypes from "prop-types"
 import { View, StyleSheet } from "react-native"
 import { ZoomableMap, Geographies, Geography, Marker, Markers } from "react-native-simple-maps"
 
-import { Svg } from "expo"
+import Svg from "react-native-svg"
 
-const geoFile = require("./topo-with-crimea.json")
+const geoFile = require("./russia-with-crimea.json")
 
 const FILL_COLOR = "#6A717C"
 const STROKE_COLOR = "#363E43"
