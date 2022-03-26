@@ -153,6 +153,7 @@ class ZoomableMap extends Component {
       aspectRatio,
       viewBox,
       defs,
+      onZoom,
       ...restProps
     } = this.props
     const { left, top, zoom } = this.state
@@ -166,7 +167,10 @@ class ZoomableMap extends Component {
         maxScale={10}
         initialZoom={0.7}
         onZoom={zoom => {
-          console.log("onZoom:" + zoom)
+            if(onZoom){
+                onZoom(zoom)
+             }
+
         }}
         canvasStyle={{ backgroundColor: "yellow" }}
         viewStyle={{ backgroundColor: "green" }}
