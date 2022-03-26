@@ -1,6 +1,6 @@
 {
   "name": "react-native-simple-maps",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "react-simple-maps fork for React Native and Expo",
   "main": "lib/index.js",
   "scripts": {
