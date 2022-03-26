@@ -7,7 +7,7 @@ const Lines = ({
   groupName,
   itemName,
   componentIdentifier,
-  ...restProps,
+  ...restProps
 }) =>
   <MapGroup
     groupName={groupName}
