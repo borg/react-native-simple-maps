@@ -7,7 +7,7 @@ const Markers = ({
   groupName,
   itemName,
   componentIdentifier,
-  ...restProps,
+  ...restProps
 }) =>
   <MapGroup
     groupName={groupName}
