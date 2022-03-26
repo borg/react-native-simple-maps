@@ -7,7 +7,7 @@ const Annotations = ({
   groupName,
   itemName,
   componentIdentifier,
-  ...restProps,
+  ...restProps
 }) =>
   <MapGroup
     groupName={groupName}
